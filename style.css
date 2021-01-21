@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("./img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -134,6 +134,11 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
+}
+
+.d-bloc a span {
+    color: white;
+    font-size: 16px;
 }
 
 .d-bloc .a-btn:hover,
@@ -284,7 +289,11 @@ a:hover {
 }
 
 #bloc-2-services p {
-    font-size: 11px;
+    font-size: 16px;
+}
+
+#col-sm-12 h2 {
+    font-size: 35px;
 }
 
 .navbar {
@@ -677,7 +686,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -705,7 +714,6 @@ p {
 }
 
 h2 {
-    font-size: 22px;
     line-height: 1.4em;
 }
 
@@ -723,7 +731,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #ffffff!important;
 }
 
 h4 {
@@ -781,16 +789,16 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #1daf36;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #1daf36!important;
     color: #FFFFFF!important;
 }
 
@@ -810,25 +818,40 @@ h4 {
     color: #c27956!important;
 }
 
+.ltc-atomic-blue {
+    color: blue!important;
+}
+
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("./img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("./img/lines-h2-bg.webp");
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("./img/atlanta%20made%20sign.webp");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("img/atlanta\ made\ sign\ orange.webp");
+}
+blockquote {
+    color: #333!important;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 26px;
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+    max-width: 565px;
+    border-left: none;
 }
 
 @media (max-width: 1024px) {
