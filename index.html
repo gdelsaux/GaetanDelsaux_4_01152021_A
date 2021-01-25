@@ -1,7 +1,16 @@
 <!doctype html>
+
+<!--change lang to en-->
+
 <html lang="en">
 
 <head>
+	<!--deleted keyword meta tag,
+	deleted script tags
+	updated description
+	changed title
+	added google analytics demo code
+	added robots meta tag-->
 	<meta charset="utf-8">
 	<meta name="robots" content="index, follow">
 	<meta name="description"
@@ -18,6 +27,15 @@
 
 
 	<!-- Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-54516992-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-54516992-1');
+	</script>
 
 	<!-- Analytics END -->
 
@@ -26,6 +44,10 @@
 <body>
 	<!-- Main container -->
 	<div class="page-container">
+
+		<!--changed link to contact.html
+		changed picture format to .webp
+		removed 2 div w/ keywords-->
 
 		<!-- bloc-0 -->
 		<div class="bloc bgc-white l-bloc " id="bloc-0">
@@ -58,8 +80,13 @@
 		</div>
 		<!-- bloc-0 END -->
 
+		<!--creation of the header tag
+		change format of img to .webp
+		change the alt to description of the img
+		improved h1 to include the keywords-->
+
 		<!-- bloc-1-hero -->
-		<div class="bloc bgc-dark-slate-blue bg-atlanta-20made-20sign d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
+		<header class="bloc bgc-dark-slate-blue bg-atlanta-20made-20sign d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
 			id="bloc-1-hero">
 			<div class="container bloc-lg">
 				<div class="row tight-width-whitespace">
@@ -77,11 +104,15 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</header>
 		<!-- bloc-1-hero END -->
 
+		<!--creation of the section tag
+		deleted the picture displaying text
+		replaced h1s w/ h2s-->
+
 		<!-- bloc-2-services -->
-		<div class="bloc bgc-white l-bloc" id="bloc-2-services">
+		<section class="bloc bgc-white l-bloc" id="bloc-2-services">
 			<div class="container bloc-md">
 				<div class="row">
 					<div class="col-sm-12 text-center">
@@ -132,11 +163,13 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- bloc-2-services END -->
 
+		<!--updated the link to contact.html-->
+
 		<!-- bloc-3-what-i-do -->
-		<div class="bloc tc-white bgc-atomic-tangerine bloc-bg-texture texture-paper b-parallax bg-atlanta-20made-20sign-20orange d-bloc"
+		<section class="bloc tc-white bgc-atomic-tangerine bloc-bg-texture texture-paper b-parallax bg-atlanta-20made-20sign-20orange d-bloc"
 			id="bloc-3-what-i-do">
 			<div class="container bloc-lg">
 				<div class="row tight-width-whitespace black-background">
@@ -151,16 +184,20 @@
 							business that are either starting or needing to renew their website to attract business.
 							Whether you need a complete brand identity or a redesign of your website, I&rsquo;ll work
 							with you to create something that looks great and structured to be found on
-							Google.<br><br><a class="ltc-white bold-link" href="page2.html">Are you ready, contact me</a><br>
+							Google.<br><br><a class="ltc-white bold-link" href="contact.html">Are you ready, contact me</a><br>
 						</p>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- bloc-3-what-i-do END -->
 
+		<!--creation a section tag
+		deleted imgs displaying text
+		changed format of pictures to .webp-->
+
 		<!-- bloc-4-portfolio -->
-		<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
+		<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12 text-center">
@@ -225,11 +262,14 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- bloc-4-portfolio END -->
 
+		<!--creation of section tag
+		updated link to contact.html-->
+
 		<!-- bloc-5-cta -->
-		<div class="bloc bgc-dark-slate-blue bg-atlanta-20made-20sign d-bloc bloc-bg-texture texture-paper"
+		<section class="bloc bgc-dark-slate-blue bg-atlanta-20made-20sign d-bloc bloc-bg-texture texture-paper"
 			id="bloc-5-cta">
 			<div class="container bloc-lg">
 				<div class="row">
@@ -237,13 +277,17 @@
 						Ready for a great website? <br>Let&rsquo;s design!
 					</h2>
 					<div class="col-sm-12 text-center">
-						<a href="page2.html"
+						<a href="contact.html"
 							class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- bloc-5-cta END -->
+
+		<!--creation of footer tag
+		gave the links of social a text to be descernable
+		deleted all farmlink-->
 
 		<!-- Footer - bloc-8 -->
 		<footer class="bloc bgc-dark-slate-blue d-bloc" id="bloc-8">

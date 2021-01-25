@@ -1,7 +1,17 @@
 <!doctype html>
+
+<!--change lang to en-->
+
 <html lang="en">
 
 <head>
+	<!--moved scripst to bottom of the body
+	deleted unnesesary script tags
+	updated description
+	added title to the page
+	updated links the the right file name
+	added GA analytics tag-->
+
 	<meta charset="utf-8">
 	<meta name="robots" content="index, follow">
 	<meta name="description" content="Please use the form on this page to contact us. I'm Mike a freelance web designer based in Atlanta, I specialise in website optimization.">
@@ -17,6 +27,14 @@
 
 
 	<!-- Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-54516992-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-54516992-1');
+	</script>
 
 	<!-- Analytics END -->
 
@@ -25,6 +43,10 @@
 <body>
 	<!-- Main container -->
 	<div class="page-container">
+
+		<!--deleted unnecesary li
+		changed img to .webp
+		updated alt of img -->	
 
 		<!-- bloc-0 -->
 		<div class="bloc bgc-white l-bloc " id="bloc-0">
@@ -57,8 +79,10 @@
 		</div>
 		<!-- bloc-0 END -->
 
+		<!--creation of header tag-->
+
 		<!-- bloc-6 -->
-		<div class="bloc bg-dots-bg bg-repeat bgc-dark-slate-blue d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+		<header class="bloc bg-dots-bg bg-repeat bgc-dark-slate-blue d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12">
@@ -73,11 +97,15 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</header>
 		<!-- bloc-6 END -->
 
+		<!--change type to text ln 129
+		creation of section tag
+		deleted class btn-bloc on the button-->
+
 		<!-- bloc-7 -->
-		<div class="bloc bgc-white l-bloc" id="bloc-7">
+		<section class="bloc bgc-white l-bloc" id="bloc-7">
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-6">
@@ -111,18 +139,18 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<button class="bloc-button btn btn-lg cta-hero btn-atomic-tangerine" type="submit">
 			Let's go Mike
 		</button>
 	</div>
-	<div class="col-sm-6">
+	<section class="col-sm-6">
 		<p>
 			mike@gomikedesigns.com<br>+1 (404) 555-1234<br> <br>123 Peachtree Ave. Atlanta,
 			GA<br>Available 9am–5pm, Mon-Fri <br> <br>Interested to learn about my freelace services?
 			<br>Please visit my&nbsp;<a class="ltc-atomic-blue" href="index.html">other page</a>.
 		</p>
-	</div>
+	</section>
 
 	<!-- bloc-7 END -->
 
@@ -131,9 +159,11 @@
 			class="fa fa-chevron-up"></span></a>
 	<!-- ScrollToTop Button END-->
 
+	<!--added text to the link
+	creation of footer tag-->
 
 	<!-- Footer - bloc-8 -->
-	<div class="bloc bgc-dark-slate-blue d-bloc" id="bloc-8">
+	<footer class="bloc bgc-dark-slate-blue d-bloc" id="bloc-8">
 		<div class="container bloc-sm">
 			<div class="row">
 				<div class="col-sm-12">
@@ -177,7 +207,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</footer>
 	<!-- Footer - bloc-8 END -->
 
 	<!-- Main container END -->
